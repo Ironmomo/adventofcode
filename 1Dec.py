@@ -9,7 +9,7 @@ Created on Tue Dec  1 21:34:15 2020
 ### First: Find two numbers out of a list of numbers which sum up to 2020 and multiplie them together 
 ###Second: Find three numbers out of a list of numbers which sum up to 2020 and multiplie them together
 
-file = open("1.Rätsel.txt","r")
+file = open("1Dec.txt","r")
 
 liste = []
 for i in file:
