@@ -50,7 +50,7 @@ def get_trees(liste,slopes):
         y = 0
         trees2 = 0
         
-        for line in range(int(len(liste)/slope[1])):
+        for line in range(0,len(liste),slope[1]):
             
             if liste[y][x%31] == "#":
                 trees2 += 1
